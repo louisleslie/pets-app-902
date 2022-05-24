@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  species: MyString
+  address: MyString
+  date_found: 2022-05-24
+  claimed: false
+
+two:
+  name: MyString
+  species: MyString
+  address: MyString
+  date_found: 2022-05-24
+  claimed: false

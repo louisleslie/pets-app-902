@@ -1,0 +1,9 @@
+<%= simple_form_for(@pet) do |f| %>
+    <%= f.input :name %>
+    <%= f.select :species, collection: Pet::SPECIES %>
+    <%= f.input :date_found, as: :date %>
+    <% if @pet.id %>
+        <%= f.input :claimed, as: :boolean %>
+    <% end %>
+    <%= f.submit %>
+<% end %>
